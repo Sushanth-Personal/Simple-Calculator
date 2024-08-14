@@ -8,6 +8,7 @@ body {
   margin-top: 20vh;
 }
 
+
 .head h1{
     font-family: "Inter";
     font-size: 1.5rem;
@@ -57,7 +58,7 @@ body {
   color:white;
   font-size: 1.5rem;
   font-weight: 800;
-  font-family: "Inter";
+  
 }
 #4 {
   grid-area: four;
@@ -105,7 +106,6 @@ body {
   width: 222px;
   font-size: 1.5rem;
   font-weight: 800;
-  font-family:"Inter";
 }
 
 #result {
@@ -129,7 +129,6 @@ body {
   font-size: 1.5rem;
   font-weight: 800;
   color: #3b4664;
-  font-family: "Inter";
 }
 
 .value-buttons:hover,
@@ -156,4 +155,3 @@ color:white;
 margin-right: 38px;
 
 }
-
