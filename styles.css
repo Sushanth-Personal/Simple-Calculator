@@ -1,0 +1,159 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3b4664;
+  margin-top: 20vh;
+}
+
+.head h1{
+    font-family: "Inter";
+    font-size: 1.5rem;
+    font-weight: 800;
+    color:white;
+    
+}
+.display {
+  width: 536px;
+  height: 142px;
+  background-color: #181f32;
+  border-radius: 12px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.layout-container {
+  width: 536px;
+  display: grid;
+  background-color: #252d44;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr auto;
+  gap: 22px;
+  padding: 48px 35px 48px 35px;
+  box-sizing: border-box;
+  grid-template-areas:
+    "seven eight nine delete"
+    "four five six add"
+    "one two three subtract"
+    "decimal zero divide multiply"
+    "reset reset result result"; /* Separate areas for reset and result */
+}
+
+#7 {
+  grid-area: seven;
+}
+#8 {
+  grid-area: eight;
+}
+#9 {
+  grid-area: nine;
+}
+#delete {
+  grid-area: delete;
+  background-color: #647299;
+  color:white;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: "Inter";
+}
+#4 {
+  grid-area: four;
+}
+#5 {
+  grid-area: five;
+}
+#6 {
+  grid-area: six;
+}
+#add {
+  grid-area: add;
+}
+#1 {
+  grid-area: one;
+}
+#2 {
+  grid-area: two;
+}
+#3 {
+  grid-area: three;
+}
+#sub {
+  grid-area: subtract;
+}
+#dec {
+  grid-area: decimal;
+}
+#0 {
+  grid-area: zero;
+}
+#divide {
+  grid-area: divide;
+}
+#mul {
+  grid-area: multiply;
+}
+
+#reset {
+  grid-area: reset;
+  background-color: #647299;
+  color: white;
+  height: 60px;
+  border-radius: 5px;
+  width: 222px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family:"Inter";
+}
+
+#result {
+  grid-area: result;
+  background-color: #D13F30;
+  color: white;
+  height: 60px;
+  border-radius: 5px;
+  width: 222px;
+}
+
+.value-buttons,
+.function {
+  width: 100px;
+  height: 60px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #3b4664;
+  font-family: "Inter";
+}
+
+.value-buttons:hover,
+.function:hover {
+  background-color: #d0d0d0;
+}
+
+#reset:hover {
+  background-color: #525E7D;
+}
+
+#result:hover {
+  background-color: #B33829;
+}
+
+#delete:hover{
+    background-color: #525E7D;
+}
+
+.display-result{
+font-family: "Segoe UI";
+font-size:2.5rem;
+color:white;
+margin-right: 38px;
+
+}
+
