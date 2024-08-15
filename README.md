@@ -20,3 +20,7 @@ Start using the calculator by clicking the buttons or using your keyboard for in
 **CSS:** For styling the calculator interface.
 
 **JavaScript**: For the functionality of the calculator.
+
+# Live Link
+
+https://sushanth-personal.github.io/Simple-Calculator/
