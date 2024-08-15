@@ -8,7 +8,7 @@ This is a simple calculator application built using HTML, CSS, and JavaScript. T
 **Clear Functionality**: Clear the current input and start fresh.
 
 # How to Use
-Clone this repository to your local machine: git clone https://github.com/yourusername/simple-calculator.git
+Clone this repository to your local machine: git clone https://github.com/Sushanth-Personal/Simple-Calculator.git
 
 Open the index.html file in your web browser.
 
