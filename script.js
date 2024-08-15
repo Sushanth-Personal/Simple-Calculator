@@ -48,7 +48,7 @@ operandButton(selectID("mul"), "x");
 operandButton(selectID("add"), "+");
 operandButton(selectID("sub"), "-");
 operandButton(selectID("divide"), "/");
-numberButton(selectID("dec"), ".");
+operandButton(selectID("dec"), ".");
 
 selectID("delete").addEventListener("click", () => {
   text = selectID("expression").textContent;
