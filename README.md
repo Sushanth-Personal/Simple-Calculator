@@ -2,6 +2,12 @@
 
 This is a simple calculator application built using HTML, CSS, and JavaScript. The calculator allows users to perform basic arithmetic operations like addition, subtraction, multiplication, and division.
 
+# Live Link
+
+https://sushanth-personal.github.io/Simple-Calculator/
+
+![image](https://github.com/user-attachments/assets/1d090389-032a-4f27-bff1-ddf93c623215)
+
 # Features
 **Basic Arithmetic Operations:** Perform addition, subtraction, multiplication, and division.
 
@@ -20,7 +26,3 @@ Start using the calculator by clicking the buttons or using your keyboard for in
 **CSS:** For styling the calculator interface.
 
 **JavaScript**: For the functionality of the calculator.
-
-# Live Link
-
-https://sushanth-personal.github.io/Simple-Calculator/
